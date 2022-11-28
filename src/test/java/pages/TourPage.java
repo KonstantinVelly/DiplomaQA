@@ -2,14 +2,13 @@ package pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import data.DBHelper;
 import org.junit.jupiter.api.Assertions;
-//import DiplomaQA.src.test.java.data.DBHelper;
 
 import java.time.Duration;
 import java.util.ArrayList;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.*;
 
 public class TourPage {
 
