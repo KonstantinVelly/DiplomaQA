@@ -1,22 +1,22 @@
 package data;
 
 import com.github.javafaker.Faker;
+import lombok.Value;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
-import lombok.Value;
 
 
 public class DataHelper {
 
     @Value
     public static class Card {
-          String number;
-          String month;
-          String year;
-          String holder;
-          String cvc;
+        String number;
+        String month;
+        String year;
+        String holder;
+        String cvc;
     }
 
     public static Card getValidApprovedCard() {
