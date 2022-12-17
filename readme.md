@@ -11,17 +11,17 @@
 
 - для Postgres: java -jar .\aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/app
 
-1. В терминале IntelliJ IDEA выполнить команду для прогона автотестов: 
+2. В терминале IntelliJ IDEA выполнить команду для прогона автотестов: 
 - для MySQL: .\gradlew clean test -D dbUrl=jdbc:mysql://localhost:3306/app -D dbUser=app -D dbPass=pass
 - для Postgres: .\gradlew clean test -D dbUrl=jdbc:postgresql://localhost:5432/app -D dbUser=app -D dbPass=pass
-1. В терминале IntelliJ IDEA выполнить команду для получения отчета: .\gradlew allureServe
+3. В терминале IntelliJ IDEA выполнить команду для получения отчета: .\gradlew allureServe
 ## После завершения прогона автотестов и получения отчета:
 
 - Завершить обработку отчета сочетанием клавиш CTRL + C, в терминале нажать клавишу Y, нажать Enter.
 - Закрыть приложение сочитанием клавиш CTRL + C в терминале запуска.
 - Остановить работу контейнеров командой docker-compose down.
 
-# Ссылки на документацию:
+# Документация:
 1) Дипломное задание
 2) План автоматизации
 3) Отчет по итогам тестрования
