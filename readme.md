@@ -7,13 +7,13 @@
 
 1. В терминале IntelliJ IDEA выполнить команду для запуска приложения:
 
-*для MySQL: java -jar .\aqa-shop.jar --spring.datasource.url=jdbc:mysql://localhost:3306/app*
+- для MySQL: java -jar .\aqa-shop.jar --spring.datasource.url=jdbc:mysql://localhost:3306/app
 
-*для Postgres: java -jar .\aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/app*
+- для Postgres: java -jar .\aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/app
 
 1. В терминале IntelliJ IDEA выполнить команду для прогона автотестов: 
-*для MySQL: .\gradlew clean test -D dbUrl=jdbc:mysql://localhost:3306/app -D dbUser=app -D dbPass=pass*
-*для Postgres: .\gradlew clean test -D dbUrl=jdbc:postgresql://localhost:5432/app -D dbUser=app -D dbPass=pass*
+- для MySQL: .\gradlew clean test -D dbUrl=jdbc:mysql://localhost:3306/app -D dbUser=app -D dbPass=pass
+- для Postgres: .\gradlew clean test -D dbUrl=jdbc:postgresql://localhost:5432/app -D dbUser=app -D dbPass=pass
 1. В терминале IntelliJ IDEA выполнить команду для получения отчета: .\gradlew allureServe
 ## После завершения прогона автотестов и получения отчета:
 
